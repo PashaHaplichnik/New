@@ -1,0 +1,89 @@
+.button{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.Red{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(245, 170, 170);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.Blue{
+    background-color: rgb(65, 31, 187);
+}
+.par{
+    width: 200px;
+    height:50px;
+    border: 2px solid black;
+}
+
+.blockPanel{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    /* background-color: rgb(255, 168, 127); */
+    top: 300px;
+    left: 800px;
+}
+.blockPanel_panel{
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: none;
+    transition-duration: 0.2s;
+}
+
+.w500{
+    width: 800px;
+    height: 800px;
+    transition-duration: 0.2s;
+}
+
+.crestik_crestik{
+    width: 20px;
+}
+.blockPanel_tutCrestik{
+    width: 20px;
+    height: 30px;
+    /* background-color: rgb(253, 253, 250); */
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.ocno{
+    border: 2px solid black;
+    width: 20px;
+    height: 17px;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+.scrol{
+    background-color: aquamarine;
+    height: 200px;
+    width: 600px;
+    overflow: auto;
+}
+
+.scrol_b{
+    width: 200px;
+    height:80px;
+    border: 2px solid black;
+    background-color: rgb(252, 93, 19);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inpText{
+    background-color: rgb(230, 213, 213);
+    margin-top: 10px;
+}
+.inpText:focus{
+    background-color: rgb(248, 247, 158);
+}
